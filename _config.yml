@@ -9,8 +9,8 @@
 title:       Type
 email:       ''
 description: ''
+baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://enirobot.github.io' # The base hostname & protocol for your site
-baseurl:     '/' # The subpath of your site, e.g. /blog
 twitter:     ''
 github:      ''
 instagram:   ''
