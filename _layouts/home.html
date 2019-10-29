@@ -10,11 +10,10 @@ layout: default
           <p class="catalogue-type">{{ post.type }}</p>
         {% endif %}
         <div class="catalogue-info transition">
-          <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
           <h1 class="catalogue-title">{{ post.title }}</h1>
+          <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
           <div class="catalogue-line"></div>
-
-          <p>
+          <p class="catalogue-body">
             {{ post.content | strip_html | truncatewords: 20 }}
           </p>
         </div>>
