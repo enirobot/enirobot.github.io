@@ -9,8 +9,16 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 750px;
   width: 80%;
+}
+
+@media (min-width: 600px) {
+  main,
+  footer,
+  .nav-container {
+    width: 88%;
+  }
 }
 
 .nav {
