@@ -7,7 +7,7 @@
 
 # Site settings
 title:       Enirobot
-email:       ''
+email:       'pasion2585@naver.com'
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://enirobot.github.io' # The base hostname & protocol for your site
@@ -18,7 +18,7 @@ facebook:    ''
 
 markdown:  kramdown
 permalink: pretty
-paginate:  10
+paginate:  5
 
 sass:
   style: compressed
