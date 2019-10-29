@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="catalogue">
+<ul class="catalogue">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
+    <li class="catalogue-item">
+      <a href="{{ post.url | prepend: site.baseurl }}">
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
@@ -14,10 +14,10 @@ layout: default
           {{ post.content | strip_html | truncatewords: 20 }}
         </p>
 
-      </div>
-    </a>
+      </a>
+    </li>
   {% endfor %}
-</div>
+  </ul>
 
 <div class="pagination">
   {% if paginator.previous_page %}
