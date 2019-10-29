@@ -1,6 +1,7 @@
 ---
 title: "[Naver Cloud Platform] 네이버 클라우드 플랫폼1년 무료 서버(Micro) 생성해보기"
 date: 2018-07-01 15:20:00 -0004
+type: Development
 categories: Server NCP
 read_time: false
 ---
