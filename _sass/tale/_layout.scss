@@ -13,7 +13,7 @@ footer,
   width: 80%;
 }
 
-@media (min-width: 670px) {
+@media (max-width: 670px) {
   main,
   footer,
   .nav-container {
